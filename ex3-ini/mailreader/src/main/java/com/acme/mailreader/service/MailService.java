@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
+import javax.inject.Singleton;
 
 import com.acme.mailreader.domain.Mail;
 import com.acme.mailreader.presentation.MailInvalideException;
@@ -17,6 +18,7 @@ public class MailService {
 	private MailSender sender;
 	
 	@Inject
+	@Singleton
 	public MailService(MailSender sender) {
 		super();
 		this.sender = sender;
