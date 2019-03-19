@@ -3,6 +3,8 @@ package com.acme.mailreader.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.inject.Inject;
+
 import com.acme.mailreader.domain.Mail;
 import com.acme.mailreader.presentation.MailInvalideException;
 import com.acme.mailreader.presentation.MailInvalideException.ErreurMail;
@@ -14,9 +16,10 @@ public class MailService {
 	//TODO : injecter par constructeur un sender
 	private MailSender sender;
 	
-	
+	@Inject
 	public MailService(MailSender sender) {
 		super();
+		this.sender = sender;
 	}
 
 	/**
