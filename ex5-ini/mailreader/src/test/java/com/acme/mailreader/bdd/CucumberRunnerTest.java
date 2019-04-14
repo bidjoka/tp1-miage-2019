@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(plugin = { "pretty", "html:target/cucumber" }, features = { "src/test/resources/" })
 /**
  * Lanceur des tests BDD
- * @author bflorat
+ * @author ABidjoka
  *
  */
 public class CucumberRunnerTest {
