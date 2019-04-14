@@ -14,7 +14,6 @@ public class MailService {
 	
 	private static final int TAILLE_MAX_SUJET = 20;
 	
-	//TODO : injecter par constructeur un sender
 	private MailSender sender;
 	
 	@Inject

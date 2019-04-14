@@ -6,7 +6,7 @@ import java.util.Comparator;
  * Comparateur de mails
  * 
  * Comme on désire afficher les mails les plus importants en premier, l'element le plus grand retourne une valeur négative
- * @author bflorat
+ * @author ABidjoka
  *
  */
 public class MailComparator implements Comparator<Mail> {
