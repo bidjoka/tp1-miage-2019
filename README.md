@@ -1,7 +1,7 @@
-# Nom des étudiants de ce binôme 
-(les DEUX noms) : XXXXX et XXXXXX
+# Nom de l'étudiant 
+(le nom) : Alexandre Bidjoka
 
-Commentaires éventuels des étudiants : XXXXXX
+Commentaires éventuels des étudiants : J'ai du faire le tp seul car je n'ai pas trouvé de binôme
 
 # Pré-requis 
 * Disposer d'au moins un compte github par binome
@@ -27,7 +27,11 @@ _Temps estimé : 20 mins_
 
 __Travailler dans le projet fourni mailreader-ex1-ini__
 
-1) Réusiner la classe `MailComparator`
+1) Réusiner la classe `MailComparator` (réusinage effectué)
+Etape :
+- remplacement de classe Object par la classe Mail au niveau des méthodes.
+- création des méthodes explicites pour comparer les mails par statut, date, sujet.
+- pas besoin de commenter le code car les méthodes sont explicitent.
 
 Raccourcis clavier à connaître : 
 * ALT-SHIFT-S : fonctions Eclipse de génération de sources (ex : constructeurs)
