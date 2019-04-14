@@ -119,9 +119,9 @@ nous avons ajouté dans la feature  les cas de test :
 5) Ecrire un scenario simple au format textuel et les steps correspondants.
 
  Scenario: Tri de deux mails 
-    Given un premier mail avec l'importance , le statut  , le sujet  
-    When un second mail avec l'importance , le statut   
-    Then there is 0 cocktails in the order 
+    Given un premier mail avec l'importance true, le statut PAS_ENVOYE, le sujet aaaaa et la date 2017-01-01T14:03:00Z
+    When un second mail avec l'importance false, le statut PAS_ENVOYE, le sujet bbbbbb et la date 22017-01-01T14:03:34Z
+    Then le tri doit retourner MAIL1_AVANT 
 
 # Finalisation
 Veuillez finaliser, vérifier votre code et vos réponses après le TP. Vous avez deux semaines avant cloture du projet.
