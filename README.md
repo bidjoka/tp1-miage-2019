@@ -1,7 +1,7 @@
 # Nom de l'étudiant 
 (le nom) : Alexandre Bidjoka
 
-Commentaires éventuels des étudiants : J'ai du faire le tp seul car je n'ai pas trouvé de binôme. J'ai rencontré des problèmes de typage au niveau des fonctions un premier mail et un second mail dans la classe MailComparaisonStep à cause du type de la date qui était en String. J'ai compris plustard qu'il fallait que je parse la date  avant de la passer en paramètre pour les mails 1 et 2. J'ai utilisé la classe InstantConverter et sa méthode transforma mais j'ai eu un javaNullpointerException.
+Commentaires éventuels des étudiants : J'ai du faire le tp seul car je n'ai pas trouvé de binôme. J'ai utilisé la classe InstantConverter et sa méthode transform mais j'ai eu un javaNullpointerException, j'ai donc parser directement les dates avec Instant.parse(). J'ai utiliser un assertEquals au lieu d'un assertThat
 
 # Pré-requis 
 * Disposer d'au moins un compte github par binome
