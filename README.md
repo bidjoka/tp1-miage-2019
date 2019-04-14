@@ -1,7 +1,7 @@
 # Nom de l'étudiant 
 (le nom) : Alexandre Bidjoka
 
-Commentaires éventuels des étudiants : J'ai du faire le tp seul car je n'ai pas trouvé de binôme. J'ai utilisé la classe InstantConverter et sa méthode transform mais j'ai eu un javaNullpointerException, j'ai donc parser directement les dates avec Instant.parse(). J'ai utiliser un assertEquals au lieu d'un assertThat
+Commentaires éventuels des étudiants : J'ai du faire le tp seul car je n'ai pas trouvé de binôme. Au niveau des tests cumcumber J'ai utilisé la classe InstantConverter et sa méthode transform mais j'ai eu un javaNullpointerException, j'ai donc parser directement les dates avec Instant.parse(). J'ai utiliser un assertEquals au lieu d'un assertThat
 
 # Pré-requis 
 * Disposer d'au moins un compte github par binome
