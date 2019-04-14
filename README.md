@@ -99,6 +99,9 @@ cucumber-jvm est l'implémentation java de cucumber, un framework de BDD (Behavi
 Pour les besoins du TP, nous utilisons ici les notions de Scenario Outline, de Data Table et de Transformer permettant l'utilisation de données tabulaires et de formats custom.
 
 1) Compléter la classe `MailComparaisonStep`
+ La date étant en instant, il a fallu la parser en string pour que son type corresponde avec le type de la méthode 
+ public void un_premier_mail(boolean importance, Statut statut,
+			String sujet, String date) 
 2) Lancer le test `CucumberRunnerTest` en junit
 3) Ouvrir dans un navigateur `target/cucumber/index.html`
 4) Ajouter des cas de test dans la feature `trier_mail.feature`. Notez qu'aucun nouveau code n'a été nécessaire pour ajouter ces tests contrairement à un TU.
