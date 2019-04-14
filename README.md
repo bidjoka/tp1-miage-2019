@@ -27,7 +27,10 @@ _Temps estimé : 20 mins_
 
 __Travailler dans le projet fourni mailreader-ex1-ini__
 
-1) Réusiner la classe `MailComparator`
+1) Réusiner la classe `MailComparator` (réusinage effectuer)
+- remplacement de classe Object par la classe Mail au niveau des méthodes.
+- création des méthodes explicites pour comparer les mails par statut, date, sujet.
+- pas besoin de commenter le code car les méthodes sont explicitent.
 
 Raccourcis clavier à connaître : 
 * ALT-SHIFT-S : fonctions Eclipse de génération de sources (ex : constructeurs)
