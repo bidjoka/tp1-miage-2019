@@ -1,6 +1,8 @@
 package com.acme.mailreader.domain;
 
 import static org.hamcrest.core.Is.is;
+import static org.hamcrest.core.IsNot.not;
+import static org.hamcrest.core.IsNull.nullValue;
 import static org.junit.Assert.assertThat;
 
 import org.junit.Before;
@@ -32,9 +34,21 @@ public class MailComparatorTest {
 		assertThat(comparator.compare(mail1, mail2), is(0));
 	}
 	
-	//TODO
-	//Autres tests unitaires
+	@Test
+	public final void mailPlusImportantEnPremier() {
+		Mail mail1 = new Mail.Builder("sujet").important(true).build();
+		Mail mail2 = new Mail.Builder("sujet").important(false).build();
+		assertThat(mail1, not(nullValue()));
+		assertThat(comparator.compare(mail1, mail2), is(MailComparator.PREMIER_PLUS_GRAND));		
+	}
 	
+	@Test
+	public final void ordreAlphabetiqueSiMemeImportance() {
+		Mail mail1 = new Mail.Builder("sujet").important(true).build();
+		Mail mail2 = new Mail.Builder("sujet").important(false).build();
+		assertThat(mail1, not(nullValue()));
+		assertThat(comparator.compare(mail1, mail2), is(MailComparator.PREMIER_PLUS_GRAND));		
+	}
 	
 	
 }
