@@ -9,7 +9,6 @@ import com.google.inject.Inject;
 
 public class InterpreteurLignecommande {
 	
-	//TODO : injecter un serviceMail par constructeur
 	private MailService serviceMail;
 	
 	@Inject
