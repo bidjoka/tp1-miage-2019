@@ -75,12 +75,12 @@ bind(MonInterface.class).to(MaClasseConcrete.class)
 ```
 Il est bien sûr également possible d'injecter des classes concrètes (comme ici le `MailService`).
 
-1) Compléter la méthode `configure()`
+1) Compléter la méthode `configure()`(méthode configure complétée)
 Observer la méthode `ClientMail.main()` : elle charge la configuration et créé l'objet de haut niveau de l'arbre d'injection : un `InterpreteurLigneCommande`.
 
-2) L'objet `InterpreteurLigneCommande` a besoin d'un `MailService`. Lui injecter (injection par constructeur) via l’annotation (standard java) `@Inject`.
+2) L'objet `InterpreteurLigneCommande` a besoin d'un `MailService`. Lui injecter (injection par constructeur) via l’annotation (standard java) `@Inject`. (injection de MailService par constructeur effectuée)
 
-3) Faire de même pour l'injection du `MailSender` dans le `MailService`.
+3) Faire de même pour l'injection du `MailSender` dans le `MailService`. (injection de MailSender par constructeur effectuée)
 
 # Exercice 4 - TU
 _Temps estimé : 30 mins_
