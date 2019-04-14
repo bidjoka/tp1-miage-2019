@@ -7,7 +7,7 @@ import com.google.inject.AbstractModule;
 
 /**
  * Module de configuration Guice 
- * @author bflorat
+ * @author ABidjoka
  *
  */
 public class MailReaderModule extends AbstractModule {
