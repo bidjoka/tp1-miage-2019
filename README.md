@@ -1,7 +1,7 @@
 # Nom de l'étudiant 
 (le nom) : Alexandre Bidjoka
 
-Commentaires éventuels des étudiants : J'ai du faire le tp seul car je n'ai pas trouvé de binôme. J'ai rencontré des problèmes de typage au niveau des fonction de cumcumber à cause du type de la date qui était en String. comme solution, je l'ai convertit en instant, avant de la passer en paramètre pour les mails 1 et 2. 
+Commentaires éventuels des étudiants : J'ai du faire le tp seul car je n'ai pas trouvé de binôme. J'ai rencontré des problèmes de typage au niveau des fonctions un premier mail et un second mail dans la classe MailComparaisonStep à cause du type de la date qui était en String. comme solution, je l'ai convertit en instant, avant de la passer en paramètre pour les mails 1 et 2. 
 
 # Pré-requis 
 * Disposer d'au moins un compte github par binome
@@ -106,12 +106,15 @@ Pour les besoins du TP, nous utilisons ici les notions de Scenario Outline, de D
 3) Ouvrir dans un navigateur `target/cucumber/index.html`
 4) Ajouter des cas de test dans la feature `trier_mail.feature`. Notez qu'aucun nouveau code n'a été nécessaire pour ajouter ces tests contrairement à un TU.
 
-nous avons ajouté dans la feature 
-| true       | false	  | LU		   | LU      | ccccc			| ccccc 		| 2017-01-01T14:03:00Z | 2017-01-01T14:03:34Z | MAIL1_APRES | 
+nous avons ajouté dans la feature  les cas de test : 
+- au niveau de l'example du scenario outline du feature:
+| true | false | LU | LU | ccccc | ccccc | 2017-01-01T14:03:00Z | 2017-01-01T14:03:34Z | MAIL1_APRES | 
 
-| false      | LU		 		 | ccccc					| 2016-12-01T14:03:00Z |
+- au niveau du scénario ordre d'une liste de mails
 
-| true       | LU        		 | ccccc					| 2016-01-01T14:03:00Z |
+| false | LU | ccccc| 2016-12-01T14:03:00Z |
+
+| true| LU | ccccc | 2016-01-01T14:03:00Z |
 
 5) Ecrire un scenario simple au format textuel et les steps correspondants.
 
