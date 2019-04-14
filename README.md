@@ -1,7 +1,7 @@
-# Nom des étudiants de ce binôme 
-(les DEUX noms) : XXXXX et XXXXXX
+# Nom de l'étudiant 
+(le nom) : Alexandre Bidjoka
 
-Commentaires éventuels des étudiants : XXXXXX
+Commentaires éventuels des étudiants : J'ai du faire le tp seul car je n'ai pas trouvé de binôme
 
 # Pré-requis 
 * Disposer d'au moins un compte github par binome
