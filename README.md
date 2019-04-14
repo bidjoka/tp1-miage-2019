@@ -42,7 +42,7 @@ Raccourcis clavier à connaître :
 # Exercice 2 - Découpage en couches
 _Temps estimé : 20 mins_
 
-1) Réorganiser le code dans les couches standards. 
+1) Réorganiser le code dans les couches standards. (effectuer)
 
 Faire en sorte par exemple que divers frontends puisse récupérer les mails. Nous aurons dans ce TP un seul frontend : un CLI (ligne de commande) qui sera implémenté sous la forme d'une classe `ClientMail` avec `main()`. 
 Cette méthode main attend deux arguments : un booleen `production` qui précise si le mail doit vraiment être envoyé (`true`) ou si nous sommes en environnement de recette (`false`). Le second argument est le sujet du mail.
